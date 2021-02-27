@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.MainPage">
+
+    <StackLayout>
+        <Label Text="Welcome to the TodoApp Press the Start button to get started" VerticalOptions="CenterAndExpand" 
+               FontSize="20" Margin="10" TextColor="Black"/>
+
+        <Button x:Name="Startbtn" Text="Start" Margin="20,20,20,20" Clicked="Startbtn_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
